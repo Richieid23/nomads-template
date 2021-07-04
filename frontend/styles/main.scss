@@ -458,3 +458,30 @@ header {
     color: #fff;
   }
 }
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #183477;
+      color: #fff;
+    }
+  }
+}
